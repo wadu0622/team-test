@@ -143,9 +143,7 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">w3 << <a href='w3.html'>Previous</a> <a href='w10.html'>Next</a> >> w10<br /><h1>w7</h1>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; 41323129</p>
-<p>======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; b67568dbb009223cc01cd636765c162f73a1dfa9</p>
+<p></p>
 <p><span>(2a </span>採<span> Youtube </span>影片簡報<span>): <a href="https://youtu.be/iOLFP90DneY">5-bar Linkage Plotter</a> </span>與<span> <a href="https://mde.tw/cad2025/content/OpenDuck.html">Openduck mini</a> </span>零組件設計繪製完成之後，如何切割零件<span>? </span>為何要切割零件？ 如何利用<span> <a href="https://cyberbotics.com/">Webots</a> </span>進行後續的控制系統設計與動態模擬<span> (Dynamic Simulation)</span>？<span>(<a href="https://mde.tw/cad2025/downloads/plotter_project.7z">plotter_project.7z</a>)</span></p>
 <p>這正是<span> Webots </span>強大之處<span> —— </span>它不僅能「模擬機器人」，還能作為控制系統設計與動態模擬的驗證平台。<span><br/> </span>下面我會一步步教你如何利用<span> Webots </span>進行控制系統設計與動態模擬，從概念<span> → </span>模型<span> → </span>控制<span> → </span>驗證。</p>
 <p>🧠 一、整體流程概觀<span><br/> </span>你可以把<span> Webots </span>當成是一個「虛擬實驗室」：<span><br/> </span>物理模型（<span>Webots </span>模擬）<span> ←→ </span>控制器（你設計的控制系統）</p>
@@ -155,41 +153,16 @@ img.add_border {
 <p><span><br/> </span>關節（<span>joint</span>）定義了可動範圍、摩擦、彈性</p>
 <p><span><br/> </span>馬達（<span>motor</span>）提供可控制的力矩或速度</p>
 <p><span><br/> </span>感測器（<span>sensor</span>）可量測位置、速度、角度等訊號</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p>=======</p>
 <p></p>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; b67568dbb009223cc01cd636765c162f73a1dfa9</p>
-<p><span> </span> <span></span></p>
-<p><span></span><br/>💻 三、建立控制器程式（Controller）<br/>Webots 支援多種語言：Python、C、C++、MATLAB。<br/>以 Python 為例，你可以撰寫控制器來實現控制演算法。</p>
-<p><br/>這樣就能實時模擬控制力矩對系統動態的影響，觀察擺桿是否穩定。</p>
+<p><span> </span> <br/>💻 三、建立控制器程式（Controller）<br/>Webots 支援多種語言：Python、C、C++、MATLAB。<br/>以 Python 為例，你可以撰寫控制器來實現控制演算法。<br/>這樣就能實時模擬控制力矩對系統動態的影響，觀察擺桿是否穩定。</p>
 <p>📈 四、進行動態模擬與結果分析<br/>Webots 提供即時數據可視化與資料輸出功能：</p>
 <p><br/>Display 元件：可繪圖</p>
 <p><br/>Supervisor 控制器：能紀錄數據</p>
 <p><br/>Robot.getTime()：取得模擬時間</p>
 <p><br/>save data：輸出 .csv 檔後用 MATLAB / Python 分析</p>
 <p><br/>然後可以在 Python（matplotlib）或 MATLAB 繪出時間響應曲線，分析動態行為（上升時間、超越量、穩態誤差）。</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p>=======</p>
-<p><span></span></p>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; 41323129 =======</p>
-<p><span>  </span></p>
-<p><span><br/> </span>💻 三、建立控制器程式（<span>Controller</span>）<span><br/> Webots </span>支援多種語言：<span>Python</span>、<span>C</span>、<span>C++</span>、<span>MATLAB</span>。<span><br/> </span>以<span> Python </span>為例，你可以撰寫控制器來實現控制演算法。</p>
-<p>=======</p>
-<p><br/><span></span></p>
-<p>💻 三、建立控制器程式（<span>Controller</span>）<span><br/> Webots </span>支援多種語言：<span>Python</span>、<span>C</span>、<span>C++</span>、<span>MATLAB</span>。<span><br/> </span>以<span> Python </span>為例，你可以撰寫控制器來實現控制演算法。</p>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; b67568dbb009223cc01cd636765c162f73a1dfa9</p>
-<p><span><br/> </span>這樣就能實時模擬控制力矩對系統動態的影響，觀察擺桿是否穩定。</p>
-<p>📈 四、進行動態模擬與結果分析<span><br/> Webots </span>提供即時數據可視化與資料輸出功能：</p>
-<p><span><br/> Display </span>元件：可繪圖</p>
-<p><span><br/> Supervisor </span>控制器：能紀錄數據</p>
-<p><span><br/> Robot.getTime()</span>：取得模擬時間</p>
-<p><span><br/> save data</span>：輸出<span> .csv </span>檔後用<span> MATLAB / Python </span>分析</p>
-<p><span><br/> </span>然後可以在<span> Python</span>（<span>matplotlib</span>）或<span> MATLAB </span>繪出時間響應曲線，分析動態行為（上升時間、超越量、穩態誤差）。</p>
+<p></p>
 <p><span> </span></p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; 41323129</p>
-<p>======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; b67568dbb009223cc01cd636765c162f73a1dfa9</p>
 <p>🔬 五、與控制理論結合<br/>你可以在 Webots 裡驗證不同的控制器：<br/>PID 控制Webots 內部實作最簡單快速、適合低階控</p>
 <p>制狀態回授（LQR）Python / MATLAB 實作適合多變量系統</p>
 <p>Model Predictive Control (MPC)需 Python + CasADi 或 MATLAB高精度、可處理限制條件</p>
@@ -211,7 +184,11 @@ img.add_border {
 <p></p>
 <p><a href="https://mde.tw/cad2025/content/OpenDuck.html">Openduck mini</a> 零組件切割 youtube影片:</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/gDog0ccshic?si=pXHmIEHqnOCx-umF" title="YouTube video player" width="560"></iframe></p>
-<br />w3 << <a href='w3.html'>Previous</a> <a href='w10.html'>Next</a> >> w10</div>
+<p></p>
+<p></p>
+<p></p>
+<p><strong>w7影片簡報:</strong></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src='//www.youtube.com/embed/FZdPnO0ic0c?si=VwU2PNZdutVDj6vD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;' width="560"></iframe></strong></p><br />w3 << <a href='w3.html'>Previous</a> <a href='w10.html'>Next</a> >> w10</div>
         
     <!-- footer -->
       <div class="container">
